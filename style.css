@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+body{
+    font-family: 'Poppins',sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+h2{
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+}
+.coming-soon{
+    min-height: 100 vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+.countdown{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+
+}
+.day,.hour,.minute,.sec{
+    font-size: 3rem;
+}
+
